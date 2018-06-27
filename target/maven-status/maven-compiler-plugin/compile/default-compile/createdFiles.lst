@@ -1,0 +1,5 @@
+net\rdurvasula\addrbook\ContactRepository.class
+net\rdurvasula\addrbook\ResourceUnavailable.class
+net\rdurvasula\addrbook\ContactController.class
+net\rdurvasula\addrbook\RdurvasulaAddrbookApplication.class
+net\rdurvasula\addrbook\data\Contact.class
