@@ -7,8 +7,8 @@
 	</Properties>
 	<Appenders>
 		<RollingFile name="LocalLogFileAppender"
-			fileName="logs/${env:SVCUID}-addrbook.log"
-			filePattern="logs/${env:SVCUID}-addrbook-%i.log">
+			fileName="logs/addrbook.log"
+			filePattern="logs/addrbook-%i.log">
 			<PatternLayout>
 				<Pattern>${LOG_PATTERN}</Pattern>
 			</PatternLayout>
