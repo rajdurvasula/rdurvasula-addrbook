@@ -6,14 +6,9 @@ pipeline {
 
   }
   stages {
-    stage('build') {
-      steps {
-        sh 'mvn --version'
-      }
-    }
     stage('Execute Script') {
       steps {
-        sh 'sh \'mvn --version\''
+        sh '/bin/bash whoami'
       }
     }
   }
